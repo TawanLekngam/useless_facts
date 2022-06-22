@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Useless Fact</title>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./anim/animation.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Useless Fact</h1>
+    <h1 class="ml2">Useless Fact</h1>
+    <div class="fact-container">
+        <p class="fact-content" id="notcp">Let's see some useless facts.</p>
+        <button id="fact-button" type="button">🔎</button>
     </div>
+    
     <script src="./app.js"></script>
-
-    <footer>
-        heello
-    </footer>
+    <script src="./anim/engine.js"></script>
 </body>
 
 </html>
