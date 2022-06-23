@@ -1,1 +1,4 @@
 # Useless Facts
+A website to practice API.
+
+<img src="https://github.com/TawanLekngam/useless_facts/blob/master/assets/uselessfact1.png" alt="img1"/>
